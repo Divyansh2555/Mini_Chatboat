@@ -1,16 +1,12 @@
-import json
+from dataset import ChatDataset
+from torch.utils.data import DataLoader
 
-# chat.json को load करना
-with open("data/chat.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
+from test import X_train, y_train
 
-# पूरा data print करना
-print(data)
+dataset = ChatDataset(X_train, y_train)
 
-print("-" * 30)
-
-# एक-एक question और answer print करना
-for item in data:
-    print("Question:", item["question"])
-    print("Answer:", item["answer"])
-    print()
+train_loader = DataLoader(
+    dataset,
+    batch_size=8,
+    shuffle=True
+)
