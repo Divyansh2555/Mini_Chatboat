@@ -1,0 +1,211 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "How are you",
+        "Is anyone there?",
+        "Hi there"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Hey! How can I help you?",
+        "Greetings!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you soon!",
+        "Take care!",
+        "Have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "I appreciate it",
+        "Much appreciated"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "Glad I could help."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Tell me your name"
+      ],
+      "responses": [
+        "I'm a PyTorch chatbot.",
+        "My name is AI Bot.",
+        "You can call me ChatBot."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What's your age?",
+        "When were you created?"
+      ],
+      "responses": [
+        "I'm an AI, so I don't have an age.",
+        "I was created by a developer using PyTorch."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who made you?",
+        "Who created you?",
+        "Who is your developer?"
+      ],
+      "responses": [
+        "I was created by my developer using Python and PyTorch."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python?",
+        "Tell me about Python",
+        "Python language"
+      ],
+      "responses": [
+        "Python is a popular programming language.",
+        "Python is easy to learn and widely used in AI and web development."
+      ]
+    },
+    {
+      "tag": "pytorch",
+      "patterns": [
+        "What is PyTorch?",
+        "Tell me about PyTorch",
+        "PyTorch framework"
+      ],
+      "responses": [
+        "PyTorch is a deep learning framework developed by Meta.",
+        "PyTorch is commonly used for machine learning and AI."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is machine learning?",
+        "Explain machine learning",
+        "ML"
+      ],
+      "responses": [
+        "Machine learning is a field of AI where computers learn from data.",
+        "Machine learning allows systems to improve without explicit programming."
+      ]
+    },
+    {
+      "tag": "deep_learning",
+      "patterns": [
+        "What is deep learning?",
+        "Explain deep learning",
+        "Deep learning"
+      ],
+      "responses": [
+        "Deep learning is a subset of machine learning based on neural networks."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "Help",
+        "I need help",
+        "Assist me"
+      ],
+      "responses": [
+        "Sure! What do you need help with?",
+        "I'm here to help. Ask me anything."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Current time",
+        "Tell me the time"
+      ],
+      "responses": [
+        "I don't have access to the current time.",
+        "Please check your device for the current time."
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "What's today's date?",
+        "Current date",
+        "Tell me today's date"
+      ],
+      "responses": [
+        "I cannot always know today's date unless connected to a clock."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather?",
+        "Weather today",
+        "Is it raining?"
+      ],
+      "responses": [
+        "I cannot check live weather right now.",
+        "Please use a weather service for live updates."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Funny joke"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "Debugging: Being the detective in a crime movie where you're also the murderer."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "asdf",
+        "qwerty",
+        "random text"
+      ],
+      "responses": [
+        "Sorry, I didn't understand that.",
+        "Could you rephrase your question?",
+        "I'm still learning. Please ask something else."
+      ]
+    }
+  ]
+}
